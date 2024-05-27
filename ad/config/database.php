@@ -1,0 +1,14 @@
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$databasename="stack_pro";
+$siteurl="http://localhost/it/admin/";
+$main="http://localhost/it/";
+$siteurl_login="http://localhost/it/admin/login";
+$con=mysqli_connect($servername,$username,$password,$databasename);
+define('SITE_PATH_ADMIN',$siteurl);
+define('SITE_PATH_L',$main);
+define('THIRD_PARTY_IMAGE_URL','http://localhost/images/images/');
+define('SITE_PATH_LOGIN',$siteurl_login);
+?>  

@@ -1,0 +1,1 @@
+date and time for contact submit (pages edited include, contact_send, main.js,contact.php,function.php)
